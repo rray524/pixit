@@ -474,6 +474,114 @@ section *{z-index:2}
 @media (max-width: 500px){ 
   .preloader{display: none}
 }
+/*producter*/
+.under-section-product {
+  background: #588496 none repeat scroll 0 0;
+}
+.twist-shake-body {
+  padding: 35px 154px 0;
+  text-align: center;
+}
+.twist-shake-body p {
+  color: #fff;
+}
+.twist-shake-body > ul {
+  color: #fff;
+  font-weight: 600;
+  padding: 34px 0;
+}
+.mug-pad {
+  padding: 0 54px;
+}
+.mug-text {
+  color: #588496 !important;
+  font-size: 21px;
+  line-height: 31px;
+  padding-left: 11px;
+  text-align: left;
+}
+.col-sm-8 > img {
+  padding-right: 98px;
+}
+.col-sm-12.bg-white {
+  border-radius: 15px;
+  margin-bottom: 70px;
+  padding: 36px;
+}
+.col-sm-8.top_pad {
+  padding-top: 158px;
+}
+.twist-shake-body li {
+  display: inline-block;
+  margin-left: 20px;
+  padding-right: 1px;
+}
+.twist-shake-body li::before {
+  content: "";
+  display: list-item;
+  position: absolute;
+}
+@media (min-width:992px) and (max-width: 1199px) {
+.col-sm-8.top_pad > img {
+  width: 118%;
+}
+.col-sm-8.top_pad {
+  padding-top: 124px;
+}
+}
+@media (min-width:768px) and (max-width: 991px) {
+  .col-sm-8.top_pad {
+  padding-top: 124px;
+}
+.twist-shake-body {
+  padding: 35px 71px 0;
+}
+.twist-shake-body > ul {
+  padding: 13px 0;
+}
+.col-sm-8.top_pad > img {
+  width: 143%;
+}
+}
+@media (min-width:320px) and (max-width: 767px) {
+.twist-shake-body {
+  padding: 5px 0;
+}
+.twist-shake-body > img {
+  margin-bottom: 27px;
+}
+.twist-shake-body > ul {
+  padding: 4px 0;
+}
+.mug-pad {
+  padding: 0;
+}
+.col-sm-12.bg-white {
+  border-radius: 7px;
+  margin-bottom: 12px;
+  padding: 0;
+}
+.col-sm-8.top_pad {
+  padding-top: 15px;
+}
+.mug-text {
+
+  font-size: 21px;
+  line-height: 25px;
+  padding-left: 0;
+  text-align: center;
+}
+
+.col-sm-8.top_pad > img {
+  padding-right: 0;
+  width: 99%;
+}
+
+
+
+
+
+}
 /* forhandlere */
 .forhand {
   background: #cbdbe2 none repeat scroll 0 0;
@@ -545,4 +653,31 @@ hr.style {
 
 .produkter-txt {
   text-align: center;
+}
+/*contact*/
+.contact {
+  background: #588496 none repeat scroll 0 0;
+}
+.contact-txt {
+  text-align: left;
+}
+.contact-txt h5 {
+  color: #fff;
+  font-size: 23px;
+}
+.contact-txt p {
+  color: #fff;
+}
+.contact-txt.align {
+  text-align: center;
+}
+.contact-txt a {
+  color: #fff;
+  padding-right: 35px;
+  text-decoration: underline;
+}
+@media (min-width:320px) and (max-width: 767px) {
+.contact-txt.align {
+  text-align: left;
+}
 }
