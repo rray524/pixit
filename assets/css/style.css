@@ -538,7 +538,7 @@ hr.style {
 /*produkter*/
 
  .produkter {
-  background-image: url(img/baby.jpg);
+  background-image: url(../assets/img/baby.jpg);
   background-size: 100% 100%;
   background-repeat: no-repeat;
 }
