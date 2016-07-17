@@ -474,6 +474,9 @@ section *{z-index:2}
 @media (max-width: 500px){ 
   .preloader{display: none}
 }
+/* ---------------------------------------------------------------------- */
+/*  custom code by rahul with media quaries
+/* ---------------------------------------------------------------------- */
 /*producter*/
 .under-section-product {
   background: #588496 none repeat scroll 0 0;
